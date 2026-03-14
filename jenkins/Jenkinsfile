@@ -1,5 +1,3 @@
-@Library ('git-aws-repo@jenkins-terraform') _
-
 def validated = AWSResources(params)
 
 pipeline {
